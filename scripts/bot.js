@@ -7,7 +7,7 @@ function sendmsg() {
 }
 
 function post(msg) {
-  $(".msgbox").append("<b>Chatbot:</b> " + msg + "<br />");
+  $(".msgbox").append("<b>HOGSbot:</b> " + msg + "<br />");
 }
 
 function meme(srch) {
