@@ -1,4 +1,4 @@
-var name = "Tester";
+var name = getCookie("hbot-name");
 
 function sendmsg() {
   $('.msgbox').append("<b>" + name + ":</b> " + $('.inputmsg').val() + '<br>');
