@@ -26,8 +26,6 @@ function meme(srch) {
   });
 }
 
-
-
 function joke() {
   $.get("https://gist.githubusercontent.com/neelusb/559916bf7ff7091a20c818e86534f4cc/raw/917c8baba74f6e3d323e95f14d7b681a0dfae5c3/jokes.json", function( result ) {
     post("<p>" + eval(result)[Math.floor((Math.random() * 9) + 1)]['joke'] + "</p>");
