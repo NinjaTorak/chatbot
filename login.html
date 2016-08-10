@@ -7,13 +7,16 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Login | HOGSbot</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <script src="scripts/cookie.js"></script>
+  <script src="https://raw.githubusercontent.com/snaptortoise/konami-js/master/konami.js"></script>
+  <script src="scripts/main.js"></script>
   <script src="https://apis.google.com/js/platform.js" async defer></script>
   <link rel="stylesheet" href="styles/main.css">
   <script>
     if (getCookie("hbot-name")) {
       window.location.href = "index.html";
     }
+    konami.load();
+    var easter_egg = new Konami('konami.html');
   </script>
 </head>
 <body>
