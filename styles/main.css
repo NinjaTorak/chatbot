@@ -1,0 +1,35 @@
+body {
+  background-color: orange;
+}
+
+.main {
+  text-align: center;
+  width: 70vw;
+  margin-left: 15vw;
+  height: 100vh;
+  background-color: lightblue;
+}
+
+.msgbox {
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+  border: solid 1px black;
+  text-align: left;
+  overflow-y:scroll;
+}
+
+.msgsend {
+  text-align: left;
+  margin: 0 auto;
+  width: 80%;
+  border: solid 1px black;
+}
+
+.inputmsg {
+  width: 90%;
+}
+
+.sendmsg {
+  width: 8%;
+}
