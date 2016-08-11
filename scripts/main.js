@@ -19,3 +19,7 @@ function getCookie(cname) {
     }
     return "";
 }
+
+cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
+  window.location.href = "konami.html";
+});
