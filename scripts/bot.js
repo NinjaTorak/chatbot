@@ -153,8 +153,8 @@ function recv(m) {
         searchout += searchoutinp[i];
       }
     }
-
-    post("<span>Okay.</span> <script>window.open('https://www.google.com/search?q=' + searchout, '_blank');</script>");
+    post("Okay.");
+    window.open('https://www.google.com/search?q=' + searchout, '_blank');
     hbsrch = false;
   }
   else if (inA("no", m) && hbsrch) {
