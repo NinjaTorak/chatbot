@@ -21,5 +21,5 @@ function getCookie(cname) {
 }
 
 cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
-  window.location.href = "konami.html";
+  window.open("konami.html", '_blank');
 });
